@@ -20,7 +20,7 @@ class PlayState extends FlxState
 	override public function create()
 	{
 		super.create();
-		bgColor = 0x66010101;
+		bgColor = FlxColor.GRAY;
 
 		player = new Player(100, FlxG.height - 100);
 		add(player);
